@@ -22,7 +22,7 @@ shuffle($question);
 <body>
 	<h2><?php echo $title; ?></h2>
 
-
+	
 	<form method="post" action="answer.php">
 		<!-- ↓これだといちいち選択肢を書かなきゃいけないので効率的じゃない -->
 			<!-- <input type="radio" name="question" value="<?php echo $question[0]; ?>" > <?php echo $question[0]; ?><br> 
@@ -37,6 +37,7 @@ shuffle($question);
 		<input type="submit" value = "回答する">
 
 	</form>
+	
 
 
 </body>
